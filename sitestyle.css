@@ -95,6 +95,11 @@ p {
   left: 1010px;
 }
 
+.activeContent a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
 .airpodsProductImage1 {
   position: absolute;
   top: 150px;
@@ -118,6 +123,31 @@ p {
 }
 
 .activeContent button a {
-  color: #161616;
+  color: #292929;
   text-decoration: none;
+}
+
+.activeContent button a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.airpodsProductGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.airpodsProductGallery2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+}
+
+.airpodsProductGalleryImage {
+  width: 20%;
+  margin: 0 60px;
+  z-index: -1;
 }
