@@ -17,7 +17,6 @@ p {
 
 .topnav {
   background-color: #fbfbfd;
-  overflow: hidden;
   font-family: sans-serif;
   margin: -8px;
   display: flex;
@@ -75,24 +74,24 @@ p {
 .activeContent h1 {
   color: black;
   position: absolute;
-  top: 157px;
-  left: 1009px;
+  top: 17%;
+  left: 55.8%;
 }
 
 .activeContent h3 {
   color: rgb(71, 157, 255);
   position: absolute;
-  top: 136px;
-  left: 1010px;
+  top: 15.2%;
+  left: 55.8%;
   font-size: 16px;
 }
 
 .activeContent p {
   color: rgb(0, 0, 0);
   position: absolute;
-  padding-right: 450px;
-  top: 223px;
-  left: 1010px;
+  padding-right: 20%;
+  top: 25%;
+  left: 55.8%;
 }
 
 .appleWebsite {
@@ -101,10 +100,10 @@ p {
 }
 
 .airpodsProductImage1 {
-  position: absolute;
-  top: 150px;
-  left: 450px;
-  width: 500;
+  position: relative;
+  top: -14%;
+  left: 28%;
+  width: 26%;
 }
 
 .activeContent button {
@@ -136,18 +135,27 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 50%;
 }
 
 .airpodsProductGallery2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2vh;
+  height: 2%;
 }
 
 .airpodsProductGalleryImage {
   width: 20%;
   margin: 0 60px;
   z-index: -1;
+}
+
+iframe {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  width: 25%;
+  height: 25%;
+  padding-bottom: 2%;
 }
