@@ -2,18 +2,6 @@ body {
   background-color: #ffffff;
 }
 
-h1 {
-  color: white;
-}
-
-h2 {
-  color: white;
-}
-
-p {
-  color: rgb(200 200 200);
-}
-
 .topnav {
   background-color: #fbfbfd;
   font-family: sans-serif;
@@ -59,18 +47,12 @@ p {
 
 .activeContent {
   background-color: #ffffff;
+  display: inline-block;
   position: relative;
   color: black;
   font-family: sans-serif;
-  /* height: 20%; */
-  width: 43%;
-  top: 15%;
-  left: 55.5%;
-  overflow: auto;
-}
-
-.activeContent h1 {
-  color: black;
+  top: 13%;
+  width: 34%;
 }
 
 .activeContent h3 {
@@ -79,8 +61,8 @@ p {
 }
 
 .activeContent p {
-  color: rgb(0, 0, 0);
-  padding-right: 20%;
+  padding-right: 0%;
+  font-size: 1.1vw;
 }
 
 .appleWebsite {
@@ -89,10 +71,12 @@ p {
 }
 
 .airpodsProductImage1 {
+  display: inline-block;
   position: relative;
-  top: -19%;
-  left: 28%;
-  width: 26%;
+  padding: 1.3%;
+  width: 25%;
+  margin-left: 30%;
+  top: 20%;
 }
 
 .airpodsProductImage2 {
