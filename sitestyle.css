@@ -51,18 +51,19 @@ body {
   position: relative;
   color: black;
   font-family: sans-serif;
-  top: 13%;
+  top: -9%;
   width: 34%;
 }
 
 .activeContent h3 {
   color: rgb(71, 157, 255);
   font-size: 16px;
+  margin-bottom: -2.5%;
 }
 
 .activeContent p {
   padding-right: 0%;
-  font-size: 1.1vw;
+  font-size: 0.8vw;
 }
 
 .appleWebsite {
@@ -73,13 +74,14 @@ body {
 .airpodsProductImage1 {
   display: inline-block;
   position: relative;
-  padding: 1.3%;
-  width: 25%;
-  margin-left: 30%;
-  top: 20%;
+  padding: 2.3%;
+  width: 21%;
+  margin-left: 26%;
+  top: 9%;
 }
 
 .airpodsProductImage2 {
+  display: inline-block;
   position: relative;
   top: -92.5%;
   left: 28%;
@@ -87,10 +89,11 @@ body {
 }
 
 .buttonHolder {
+  display: inline-block;
   position: relative;
-  top: -24%;
-  left: 55.5%;
-  max-width: 25%;
+  top: -8.5%;
+  left: 51.8%;
+  width: 32%;
 }
 
 button {
@@ -98,11 +101,11 @@ button {
   border: solid 1.9px rgb(218, 218, 218);
   border-radius: 10px;
   color: #161616;
-  padding: 6.4% 15.5%;
+  padding: 3.4% 10.5%;
   text-align: center;
-  font-size: 12px;
-  margin-top: 0;
-  margin-right: 5px;
+  font-size: 0.8vw;
+  margin-top: 3px;
+  margin-right: 1%;
   margin-bottom: 1.8%;
 }
 
